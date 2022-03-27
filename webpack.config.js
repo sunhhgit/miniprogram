@@ -11,7 +11,14 @@ module.exports = {
   entry: {
     "app": "./app.js",
     "pages/index/index": "./pages/index/index.js",
-    "pages/logs/logs": "./pages/logs/logs.js"
+    "pages/logs/logs": "./pages/logs/logs.js",
+    "pages/discovery/discovery": "./pages/discovery/discovery.js",
+    "pages/notify/notify": "./pages/notify/notify.js",
+    "pages/chat/chat": "./pages/chat/chat.js",
+    "pages/more/more": "./pages/more/more.js",
+    "pages/answer/answer": "./pages/answer/answer.js",
+    "pages/question/question": "./pages/question/question.js",
+    "pages/login/login": "./pages/login/login.js"
   },
   output: {
     path: resolve("dist"),

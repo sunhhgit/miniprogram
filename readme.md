@@ -76,3 +76,9 @@ npm i --save-dev cross-env
 如果要接入less做css的拓展操作
 
 next class 小程序原理 + 生命周期 + api原理
+
+
+# weapp-wechat-zhihu
+```
+git@github.com:RebeccaHanjw/weapp-wechat-zhihu.git
+```

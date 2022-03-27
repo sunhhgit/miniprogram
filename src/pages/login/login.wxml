@@ -1,0 +1,15 @@
+<view class="login">
+  <view class="login avatar">
+    <image class="userinfo-avatar" src="{{ userInfo.avatarUrl }}"></image>
+  </view>
+  <view class="opt-area">
+    <button class="opt-button" type="primary" bindtap="tapGetCode">获取code</button>
+    <button class="opt-button" type="primary" bindtap="tapGetInfo">获取用户信息</button>
+  </view>
+  <view>
+    <text wx:if="{{ code }}">code: {{ code }}</text>
+  </view>
+  <view>
+    <text wx:if="{{ userInfo.nickName }}">name: {{ userInfo.nickName }}</text>
+  </view>
+</view>
